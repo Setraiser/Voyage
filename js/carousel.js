@@ -9,17 +9,11 @@
 
 		var itemStyle = getComputedStyle(items[0]),
 			ofWidth = (items[0].offsetWidth + (parseInt(itemStyle.marginRight) + parseInt(itemStyle.marginLeft)));
-	
-		if (typeof options.width !== 'number' ||
-			typeof options.cols !== 'number' ||
-			options.width <= 0 ||
-			options.cols <= 0 ||
-			items.length <= 0) return false;
+
+		if (items.length <= 0) return false;
 
 		carouselWidth = document.getElementById('carousel');
 		
-		console.log('carousel width: ' + carouselWidth.offsetWidth);
-
 		wrapper.style.width = (carouselWidth.offsetWidth * (items.length + 2)) + 'px';
 	
 		var addEvents = function() 
@@ -146,30 +140,13 @@
 
 	carousel('carousel', 
 	{
-		width: 1200,
-		cols: 4,
+		
 		controls: {
 			next: 'nextO',
 			prev: 'prevO'
-		} 
+		}, autoplay: 2000 
 			
 	});
 
-
-
-	if (screen.width > 320) 
-	{
-		carousel('carousel', 
-		{
-			width: 1200,
-			cols: 4,
-			controls: 
-			{
-				next: 'nextO',
-				prev: 'prevO'
-			}, autoplay: 2000
-			
-		});
-	};
 	
 }());
