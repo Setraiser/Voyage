@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name = "author" content="Константин Карпук" />
+	<meta name = "description" content="Travel PSD macket/Exam project" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Voyage</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/media.css" />
+
+</head>
+<body>
+	<div class="wrapper">
+		<header id="header" class="header">
+			<div class="container">
+				<section class="contacts">
+					<div class="con al">
+						<i class="fa fa-user" aria-hidden="true"></i> Agent Login
+					</div>
+					
+					<div class="con">
+						<i class="fa fa-user" aria-hidden="true"></i> Customer Login
+					</div>
+					<div class="con">
+						<i class="fa fa-file-o" aria-hidden="true"></i> Not a member? 
+						<a href="">Register</a>
+					</div>
+					<div class="con cun">
+						Call us now: 815-123-4567
+					</div>
+				</section>
+				<section class="social-top">
+					<div class="soc st">
+						<a href="">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="soc st">
+						<a href="">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="soc st">
+						<a href="">
+							<i class="fa fa-tumblr" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="soc st">
+						<a href="">
+							<i class="fa fa-pinterest" aria-hidden="true"></i>
+						</a>
+					</div>
+				</section>
+			</div>
+		</header>
+		<nav id="nav" class="nav">
+			<div class="container">
+				<div class="logo">
+					v<span class="green">o</span>yage
+				</div>
+				<div class="nav-mobile">
+					<label for="nav-mobile" onclick = "toggleMenu()">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</label>
+				</div>
+				<div class="search">
+					<i class="fa fa-search" aria-hidden="true"></i>
+				</div>
+				<div class="menu">
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">Destinations</a></li>
+						<li><a href="">Cruises</a></li>
+						<li><a href="">Specials</a></li>
+						<li><a href="">Holidays</a></li>
+						<li><a href="">Blog</a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</nav>
+		<main id="main" class="main">
+			<section class="promo">
+				
+				<div id="slider">
+					<ul>
+						
+						<li style="background-image: url('img/sl1.jpg'); background-size: cover; background-position: center center; z-index: 10;">
+							<div class="shadow-wrapper">
+								<div class="li-wrapper">
+									<h1>To travel is to live</h1>
+									<p>You Don't Need Magic to Disappear. All you need is a destination.</p>
+
+									<a class="show" href="">Show on the map</a>
+									<a class="more" href="">More info</a>
+									
+								</div>
+							</div>
+						</li>
+
+						<li style="background-image: url('img/sl2.jpg'); background-size: cover; background-position: center center; z-index: 9;">
+							<div class="shadow-wrapper">
+								<div class="li-wrapper">
+									<h1>To travel is to live</h1>
+									<p>You Don't Need Magic to Disappear. All you need is a destination.</p>
+
+									<a class="show" href="">Show on the map</a>
+									<a class="more" href="">More info</a>
+									
+								</div>
+							</div>
+						</li>
+						<li style="background-image: url('img/sl3.jpg'); background-size: cover; background-position: center center; z-index: 8;">
+							<div class="shadow-wrapper">
+								<div class="li-wrapper">
+									<h1>To travel is to live</h1>
+									<p>You Don't Need Magic to Disappear. All you need is a destination.</p>
+
+									<a class="show" href="">Show on the map</a>
+									<a class="more" href="">More info</a>
+									
+								</div>
+							</div>
+						</li>
+						
+					</ul>
+					<div class="controls">
+							<button class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+
+							<button class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+					</div>
+				</div>
+				
+			</section>
+
+			<section class="search">
+				<div class="container">
+					<div class="slogan"><span class=".FindY">Find your</span> <br /> <span class="Holidays">Holidays</span></div>
+					<div class="form">
+						<form action="" method="post" name="search"><label>
+							Where
+						</label><select class="country" name="country" required>
+		                	<option value="sestination" selected disabled hidden>destination</option>
+		                	<option value="AX">AALAND ISLANDS</option>
+							<option value="AF">AFGHANISTAN</option>
+							<option value="AL">ALBANIA</option>
+							<option value="DZ">ALGERIA</option>
+							<option value="AS">AMERICAN SAMOA</option>
+							<option value="AD">ANDORRA</option>
+							<option value="AO">ANGOLA</option>
+							<option value="AI">ANGUILLA</option>
+							<option value="AQ">ANTARCTICA</option>
+							<option value="AG">ANTIGUA AND BARBUDA</option>
+							<option value="AR">ARGENTINA</option>
+							<option value="AM">ARMENIA</option>
+							<option value="AW">ARUBA</option>
+							<option value="AU">AUSTRALIA</option>
+							<option value="AT">AUSTRIA</option>
+							<option value="AZ">AZERBAIJAN</option>
+							<option value="BS">BAHAMAS</option>
+							<option value="BH">BAHRAIN</option>
+							<option value="BD">BANGLADESH</option>
+							<option value="BB">BARBADOS</option>
+							<option value="BY">BELARUS</option>
+							<option value="BE">BELGIUM</option>
+							<option value="BZ">BELIZE</option>
+							<option value="BJ">BENIN</option>
+							<option value="BM">BERMUDA</option>
+		                </select><label>
+							When
+                     	</label><select class="date" type="date" name="calendar" required>
+		                	<option value="date" selected disabled hidden>select date</option>
+		                	<option value="today">07.07.2018</option>
+		                	<option value="tommorow">08.07.2018</option>
+		                	<option value="august">01.08.2018</option>
+		                	<option value="septemper">01.09.2018</option>
+		                	<option value="october">01.10.2018</option>
+		                	<option value="november">01.11.2018</option>
+		                	<option value="december">01.12.2018</option>
+		                </select><input type="submit" value="search">
+
+              			</form>
+					</div>
+				</div>
+			</section>
+			<section class="special-offers">
+				<h2>Special offers</h2>
+				<p>Best 2014 packages where people love to stay!</p>
+
+				
+				<div id="carousel" class="carousel">
+					
+
+					<ul>
+						<li>
+							<div class="in">
+								<a href="">
+									<div class="image" style="background-image: url('img/offers1.png');"></div>
+
+									<div class="text">
+										<div class="name">Spectacular Seychelles</div>
+										<div class="category">New destination!</div>
+										</div>
+									<div class="arrowDown"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+								</a>
+							</div>
+						</li>
+
+						<li>
+							<div class="in">
+								<a href="">
+									<div class="image" style="background-image: url('img/offers2.png');"></div>
+
+									<div class="text">
+										<div class="name">Spectacular Seychelles</div>
+										<div class="category">New destination!</div>
+										</div>
+									<div class="arrowDown"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+								</a>
+							</div>
+						</li>
+
+						<li>
+							<div class="in">
+								<a href="">
+									<div class="image" style="background-image: url('img/offers3.png');"></div>
+
+									<div class="text">
+										<div class="name">Spectacular Seychelles</div>
+										<div class="category">New destination!</div>
+										</div>
+									<div class="arrowDown"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+								</a>
+							</div>
+						</li>
+
+						<li>
+							<div class="in">
+								<a href="">
+									<div class="image" style="background-image: url('img/offers4.png');"></div>
+
+									<div class="text">
+										<div class="name">Spectacular Seychelles</div>
+										<div class="category">New destination!</div>
+										</div>
+									<div class="arrowDown"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+								</a>
+							</div>
+						</li>
+
+						<li>
+							<div class="in">
+								<a href="">
+									<div class="image" style="background-image: url('img/offers5.png');"></div>
+
+									<div class="text">
+										<div class="name">Spectacular Seychelles</div>
+										<div class="category">New destination!</div>
+										</div>
+									<div class="arrowDown"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+								</a>
+							</div>
+						</li>
+
+						<li>
+							<div class="in">
+								<a href="">
+									<div class="image" style="background-image: url('img/offers6.png');"></div>
+
+									<div class="text">
+										<div class="name">Spectacular Seychelles</div>
+										<div class="category">New destination!</div>
+										</div>
+									<div class="arrowDown"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+								</a>
+							</div>
+						</li>
+
+						<li>
+							<div class="in">
+								<a href="">
+									<div class="image" style="background-image: url('img/offers7.png');"></div>
+
+									<div class="text">
+										<div class="name">Spectacular Seychelles</div>
+										<div class="category">New destination!</div>
+										</div>
+									<div class="arrowDown"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+								</a>
+							</div>
+						</li>
+
+						<li>
+							<div class="in">
+								<a href="">
+									<div class="image" style="background-image: url('img/offers8.png');"></div>
+
+									<div class="text">
+										<div class="name">Spectacular Seychelles</div>
+										<div class="category">New destination!</div>
+										</div>
+									<div class="arrowDown"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+								</a>
+							</div>
+						</li>
+					</ul>
+
+					
+					<div class="controls">
+						<button class="prevO">
+							<i class="fa fa-angle-left" aria-hidden="true"></i>
+						</button>
+
+						<button class="nextO">
+							<i class="fa fa-angle-right" aria-hidden="true"></i>
+						</button>
+					</div>
+					
+				</div>
+			</section>
+			<section class="holidays-type">
+				<div class="shadow-wrapper">
+					<div class="container">
+						<h2>Holidays type</h2>
+						<p>get explore your dream to travel the world!</p>
+
+						<div class="type t1">
+							<a href="">
+								<div class="circle"></div>
+								<div class="text">Cruise</div>
+							</a>
+						</div>
+
+						<div class="type t2">
+							<a href="">
+								<div class="circle"></div>
+								<div class="text">City Breaks</div>
+							</a>
+						</div>
+
+						<div class="type t3">
+							<a href="">
+								<div class="circle"></div>
+								<div class="text">Honeymoon</div>
+							</a>
+						</div>
+
+						<div class="type t4">
+							<a href="">
+								<div class="circle"></div>
+								<div class="text">Adventure</div>
+							</a>
+						</div>
+
+						<div class="type t5">
+							<a href="">
+								<div class="circle"></div>
+								<div class="text">Safari</div>
+							</a>
+						</div>
+
+						<div class="type t6">
+							<a href="">
+								<div class="circle"></div>
+								<div class="text">Beach</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="happy-clients">
+				<div class="container">
+					<h2>Happy clients</h2>
+					<p>what customers say about us and why love our services!</p>
+
+					<div class="rev rev1">
+							<div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+							<div class="name">Name</div>
+							<div class="country">USA</div>
+						</div><div class="rev rev2">
+							<div class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make. </div>
+							<div class="name">Name</div>
+							<div class="country">United Kingdom</div>
+						</div>
+						<div class="rev rev3">
+							<div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							<div class="name">Name</div>
+							<div class="country">Deutchland</div>
+						</div>
+					</div>
+				
+			</section>
+		</main>
+		<footer id="footer" class="footer">
+
+			<div class="footer-up">
+
+				<div class="container">
+
+					<div class="block newsletter">
+						<div class="incontent">
+							<h3>Newsletter</h3>
+							<div class="text">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+							</div>
+							<form action="" method="post" name="search">
+							<input type="text" id="subsctibe" name="subscribe" placeholder="Subscribes...">
+							<input type="submit" value="GO">
+							</form>
+						</div>
+					</div>
+
+					<div class="block latestnews">
+						<div class="incontent">
+							<h3>Latest news</h3>
+							<div class="news n1">
+								<div class="border"><div class="image"></div></div>
+								<div class="wrapping">
+									<div class="text">Postformat Gallery: Multiple <br /> images</div>
+									<div class="time">December 21, 2013 - 3.31 pm</div>
+								</div>
+							</div>
+							<div class="news n2">
+								<div class="border"><div class="image"></div></div>
+								<div class="wrapping">
+									<div class="text">Snowboarding is fun!</div>
+									<div class="time">December 21, 2013 - 3.31 pm</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="block tags">
+						<div class="incontent">
+							<h3>Tags</h3>
+							<div class="tag t">Agent Login</div>
+							<div class="tag t">Customer Login</div>
+							<div class="tag">Not a member?</div>
+							<div class="tag">Contact</div>
+							<div class="tag">New Horizons</div>
+							<div class="tag">Landscape</div>
+							<div class="tag">Tags</div>
+							<div class="tag">Nice</div>
+							<div class="tag">Some</div>
+							<div class="tag">Portrait</div>
+						</div>
+					</div>
+
+					<div class="block address">
+						<div class="incontent">
+							<h3>Address</h3>
+							<div class="text">Baker Street, 24, United Kingdom</div>
+							<div class="mail"><span class="green">E-mail:</span> voyage@gmail.com</div>
+							<div class="icons"><i class="fa fa-facebook" aria-hidden="true"></i><i class="fa fa-twitter" aria-hidden="true"></i><i class="fa fa-tumblr" aria-hidden="true"></i><i class="fa fa-pinterest" aria-hidden="true"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-down">
+				<div class="container">
+					<div class="menu">
+						<ul>
+							<li><a href="">Home</a></li>
+							<li>::</li>
+							<li><a href="">Destinations</a></li>
+							<li>::</li>
+							<li><a href="">Cruises</a></li>
+							<li>::</li>
+							<li><a href="">Specials</a></li>
+							<li>::</li>
+							<li><a href="">Holidays</a></li>
+							<li>::</li>
+							<li><a href="">Blog</a></li>
+							<li>::</li>
+							<li><a href="">Contact Us</a></li>
+						</ul>
+					</div>
+
+					<div class="copyright">Copyright @voyage. All Rights Reserved.</div>
+					<div class="top" id="anchor"><div class="arrowDown"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/menu.js"></script>
+	<script src="js/anchor.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="js/carousel.js"></script>
+		
+
+</body>
+
+</head>
+</html>
+
+
+		
+			
+			
+			
+				
+				
+			
+			
+		
+	
